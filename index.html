@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.css"> 
+</head>
+<body>
+    <div class="container">
+        <form>
+            <h3>Pregunta 2.a</h3>
+                <table>
+                    <tr>
+                        <td><p>Usuario</p></td>
+                        <td><input type="text" id="user"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Email</p></td>
+                        <td><input type="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <td><p class="resp">Su usuario es: </p></td>
+                        <td><div id="setUser"></div></td>
+                    </tr>
+                    <tr>
+                        <td><p class="resp">Su email es: </p></td>
+                        <td><div id="setEmail"></div></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Enviar" class="button" id="button1"></td>
+                    </tr>
+                </table>
+                
+            <h3>Pregunta 2.b</h3>
+                <table>
+                    <tr>
+                        <td><p>Ingrese número 1</p></td>
+                        <td><input type="number" class="caja-input" id="2b-1"></td>
+                        <td><p>Ingrese número 2</p></td>
+                        <td><input type="number" class="caja-input" id="2b-2"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Ingrese número 3</p></td>
+                        <td><input type="number" class="caja-input" id="2b-3"></td>
+                        <td><p>Ingrese número 4</p></td>
+                        <td><input type="number" class="caja-input" id="2b-4"></td>
+                    </tr>
+                        <td><input type="button" value="Enviar" class="button" id="button2"></td>
+                    </tr>
+                    <tr>
+                        <td><p>Suma</p></td>
+                        <td><p>(Número 1 + Número 2):</p></td>
+                        <td><div id="setSuma"></div></td>
+                    </tr>
+                    <tr>
+                        <td><p>Multiplicación</p></td>
+                        <td><p>(Número 3 * Número 4):</p></td>
+                        <td><div id="setMultiplicacion"></div></td>
+                    </tr>
+                    <tr>
+                </table>
+            <h3>Pregunta 2.c</h3>
+                <table>
+                    <tr>
+                        <td><p>Ingrese número 1</p></td>
+                        <td><input type="number" class="caja-input" id="2c-1"></td>
+                        <td><p>Ingrese número 2</p></td>
+                        <td><input type="number" class="caja-input" id="2c-2"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="button" value="Enviar" class="button" id="button3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="12"><div id="enunciado"></div></td>
+                    </tr>
+                </table>
+            <h3>Pregunta 2.d</h3>
+            <table>
+                <tr>
+                    <td><p>Ingrese número 1</p></td>
+                    <td><input type="number" class="caja-input" id="2d-1"></td>
+                    <td><p>Ingrese número 2</p></td>
+                    <td><input type="number" class="caja-input" id="2d-2"></td>
+                    <td><p>Ingrese número 3</p></td>
+                    <td><input type="number" class="caja-input" id="2d-3"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Enviar" class="button" id="button4"></td>
+                </tr>
+                <tr>
+                    <td><p>Promedio:</p></td>
+                    <td><div id="promedio"></div></td>
+                    <td><div id="mensajePromedio"></div></td>
+                </tr>
+            
+            </table>
+            <h3>Pregunta 2.e</h3>
+            <table>
+                <tr>
+                    <td><p>Ingrese número 1</p></td>
+                    <td><input type="number" class="caja-input" id="2e-1"></td>
+                    <td><p>Ingrese número 2</p></td>
+                    <td><input type="number" class="caja-input" id="2e-2"></td>
+                    <td><p>Ingrese número 3</p></td>
+                    <td><input type="number" class="caja-input" id="2e-3"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="Enviar" class="button" id="button5"></td>
+                </tr>
+                <tr>
+                    <td><p>El mayor de ellos es:</p> </td>
+                    <td><div id="respuestaMayor"></div></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
